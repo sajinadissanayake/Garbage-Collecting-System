@@ -1,0 +1,93 @@
+/* import google fonts*/
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap");
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+    font-family: "Poppins", sans-serif;
+}
+
+
+body{
+    font-family: 'poppins' , 'sans-serif';
+    background-image: url(7.jpg);
+    background-size: cover;
+
+}
+
+
+div.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 60px;
+    height: 100px;
+    background-color: rgb(67, 154, 96);
+    border-top: 3px solid black;
+    border-bottom: 3px solid rgb(0, 0, 0);
+}
+
+div.header h1{
+    position: relative;
+    left: 30%;
+    color: white;
+}
+
+
+
+.button{
+    padding: 5px;
+    margin-top: 5px;
+  }
+  
+  .button a {
+    color: rgb(0, 0, 0);
+    background-color: rgb(43, 212, 147);
+    padding: 8px 25px;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 20px;
+    font-size: 20px;
+  }
+  
+  .button a:hover{
+    color: black;
+    background-color: white;
+    border: 2px solid black;
+  }
+
+.main{
+    position: relative;
+    padding: 20px;
+    width: 100%;
+  }
+
+
+  .card-section{
+    display: flex;
+    width: 100%;
+    margin-left: 25%;
+    padding-left: 10px;
+    margin-top: 50px;
+  }
+  
+  .card{
+    width: 400px;
+    height: 280px;
+    margin: 20px;
+    background: #ffffff;
+    text-align: center;
+    border-radius: 10px;
+    padding: 20px;
+    border: 2px solid black;
+  }
+
+  .card h4{
+    font-size: 20px;
+  }
+  
+  .card img{
+    width: 120px;
+    height: 120px;
+  }
